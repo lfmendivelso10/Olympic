@@ -6,3 +6,11 @@ class Deport(models.Model):
 
     def __str__(self):
         return self.name
+
+
+
+class Country(models.Model):
+    nmae = models.CharField(max_length=255)
+
+    def __str__(self):
+        return name
